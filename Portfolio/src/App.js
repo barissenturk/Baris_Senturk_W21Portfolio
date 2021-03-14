@@ -8,7 +8,7 @@ import About from "./contents/About";
 import Contact from "./contents/Contact";
 import Resume from "./contents/Resume";
 import AcademicWorkExperience from "./contents/AcademicWorkExperience";
-
+import ProfessionalSummary from "./contents/ProfessionalSummary";
 function App() {
   return (
     <Router>
@@ -28,6 +28,9 @@ function App() {
         </Route>
         <Route path="/Academics">
           <AcademicWorkExperience />
+        </Route>
+        <Route path="/ProfessionalSummary">
+          <ProfessionalSummary />
         </Route>
       </div>
     </Router>

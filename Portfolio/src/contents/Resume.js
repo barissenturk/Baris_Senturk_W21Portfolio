@@ -21,7 +21,8 @@ export default class Resume extends Component {
         <ExperienceCard
           title="Software Developer"
           pic={Atez}
-          where="ATEZ Yazilim Teknolojileri A.S"
+          where="ATEZ Software
+          Technologies"
           from="Sept 2020"
           to="Present"
           country="Istanbul,Turkey"

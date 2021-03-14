@@ -150,6 +150,100 @@ h1,h2,h3,h4,p{
   display: flex;
   justify-content:flex-end;
 }
+.AcademicCardContainer{
+  display: flex;
+  flex-direction: column;
+}
+.AcademicCard{
+  width: 300px;
+  border:0px solid #9a9b9c;
+  display: flex;
+  flex-direction: column;
+  margin:30px 0px 30px 0px;
+}
+.AcademicCard:hover
+{
+  color: #1b1d20;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.Colaps{
+   color: black;
+   margin-left: 200;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.DetailofCards{
+  display: flex;
+  flex-direction: row nowrap;
+  margin-left: 50px;
+  border-left: 2px solid #EE678F;
+
+}
+.Icerik{
+  margin-left: 20px;
+}
+.elements{
+  margin: 10px;
+
+}
+.ProjectTITLE{
+  text-align: center;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 500;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.DownloadButton i
+{
+  padding-right: 10px;
+  font-size: 25px;
+  color: #9a9b9c;
+}
+.WorkPics{
+  width: 250px;
+  height: 150px;
+  -webkit-filter: brightness(100%);
+}
+
+.WorkPics:hover {
+  -webkit-filter: brightness(50%);
+  background-color:#000;
+ 
+}
+.ProfessionalCard{
+  max-width: 1000px;
+  border:0px solid #9a9b9c;
+  display: flex;
+  flex-direction: column;
+  margin:30px 0px 30px 0px;
+}
+.ProfessionalCard:hover
+{
+  color: #1b1d20;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.listItem{
+  color: #000;
+  margin-left: 40px;
+}
+.listItem li{
+  color: #000;
+  margin-bottom: 20px;
+}
+.ProjectLink{
+  display: flex;
+  flex-direction: column nowrap;
+  margin-right: 100px;
+}
+.CollapseButton{
+  margin-left: 0px;
+}
 @media all and (max-width: 450px) {
   :root {
     --fontsize-nav:1rem;

@@ -9,7 +9,12 @@ class About extends Component {
         <h1>I'm Baris Senturk</h1>
         <h3>Software Developer</h3>
         <br></br>
-        <p>......</p>
+        <p>
+          I am currently studying at George Brown College in Computer
+          programming and Analysis. Also I work part time in ATEZ Software
+          Technologies. My career goal is to become an expert in Front-End with
+          using React, Angular and Vue.
+        </p>
       </div>
     );
   }
